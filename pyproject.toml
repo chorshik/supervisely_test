@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "supervisely-test"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Savvin <p_sawwin@outlook.com>"]
+readme = "README.md"
+packages = [{include = "supervisely_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.4.0"
+opencv-python = "^4.7.0.68"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
